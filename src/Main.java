@@ -9,7 +9,7 @@ public class Main {
         double totalBill = scan.nextDouble();
         System.out.print("Tip Percent: ");
         double tipPercentage = scan.nextDouble();
-        tipPercentage /= (double)100.0F;
+        tipPercentage /= 100.0F;
         System.out.print("Number of People: ");
         int partyNumber = scan.nextInt();
         System.out.println();
